@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FSPHF2GE2J"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-FSPHF2GE2J');
+    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Скример</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('423267b_1430289934.JPG'); /* Замените 'background_image.jpg' на путь к вашему изображению */
+    background-size: cover;
+    background-position: center;
+    color: rgb(214, 20, 20);
+  }
+  #skream {
+    font-size: 100px;
+    text-align: center;
+    animation: scream 1s infinite alternate;
+  }
+  @keyframes scream {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+</style>
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FSPHF2GE2J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FSPHF2GE2J');
+</script>
+<body>
+<div id="skream">AAAAAAAAAAHHHHHHHH!</div>
+
+<script>
+// Функция для открытия страницы в полноэкранном режиме
+function openFullscreen() {
+  var elem = document.documentElement;
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.mozRequestFullScreen) { /* Firefox */
+    elem.mozRequestFullScreen();
+  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+    elem.msRequestFullscreen();
+  }
+}
+
+// Открываем страницу в полноэкранном режиме при загрузке
+window.onload = function() {
+  openFullscreen();
+};
+</script>
+
+</body>
+</html>
